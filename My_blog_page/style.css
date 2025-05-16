@@ -1,0 +1,85 @@
+/* this is my blog css file
+with this file I can make the html file look better */
+
+* {
+    margin: 10;
+    padding: 10;
+}
+
+li {
+    display: inline;
+}
+
+hr {
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    color: #333;
+}  
+
+nav {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: #333;
+}
+
+article {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+figure img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    max-width: 150px; /* Optional: Ensure the image doesn't exceed a certain size */
+    height: auto; /* Maintain aspect ratio */
+}
